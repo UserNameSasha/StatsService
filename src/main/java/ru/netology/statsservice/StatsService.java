@@ -51,7 +51,7 @@ public class StatsService {
         int counter = 0;
         int mediumSales = mediumSales(sales);
         for (int sale : sales) {
-            if (sale < mediumSales(sales)) {
+            if (sale < mediumSales) {
                 counter++;
             }
         }
